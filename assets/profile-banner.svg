@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 280" width="1200" height="280" role="img" aria-label="Germán — data, applied AI and security engineering">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#080d18"/>
+      <stop offset="0.55" stop-color="#0d1a2b"/>
+      <stop offset="1" stop-color="#080f1c"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.2" cy="0.52" r="0.7">
+      <stop offset="0" stop-color="#1de9b6" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#1de9b6" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="contour" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#1de9b6" stop-opacity="0.02"/>
+      <stop offset="0.45" stop-color="#38bdf8" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#818cf8" stop-opacity="0.02"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#38bdf8" stroke-opacity="0.06" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="280" fill="url(#bg)"/>
+  <rect width="1200" height="280" fill="url(#grid)"/>
+  <rect width="1200" height="280" fill="url(#glow)"/>
+
+  <g fill="none" stroke="url(#contour)" stroke-width="1.35">
+    <path d="M-60 232 C 120 118, 270 252, 450 158 S 740 58, 930 148 S 1120 236, 1260 104"/>
+    <path d="M-60 252 C 130 142, 280 270, 470 182 S 750 88, 940 172 S 1130 256, 1260 128"/>
+    <path d="M-60 272 C 140 168, 290 288, 490 206 S 760 118, 950 196 S 1140 274, 1260 152"/>
+    <path d="M-60 200 C 110 96, 260 226, 430 138 S 720 40, 910 128 S 1100 214, 1260 82"/>
+    <path d="M-60 180 C 100 76, 250 204, 410 118 S 700 22, 890 108 S 1080 194, 1260 62"/>
+  </g>
+
+  <g stroke="#38bdf8" stroke-opacity="0.30" stroke-width="1.2" fill="none">
+    <path d="M830 86 L958 54 L1082 122 L1010 206 L878 190 Z"/>
+    <path d="M958 54 L1010 206 M830 86 L1082 122 M878 190 L958 54"/>
+  </g>
+  <g fill="#1de9b6">
+    <circle cx="830" cy="86" r="5"/>
+    <circle cx="958" cy="54" r="7"/>
+    <circle cx="1082" cy="122" r="5"/>
+    <circle cx="1010" cy="206" r="6"/>
+    <circle cx="878" cy="190" r="4"/>
+  </g>
+  <g fill="#38bdf8" fill-opacity="0.65">
+    <circle cx="1120" cy="72" r="3"/>
+    <circle cx="800" cy="160" r="3"/>
+    <circle cx="940" cy="240" r="3"/>
+  </g>
+
+  <rect x="56" y="58" width="4" height="152" fill="#1de9b6"/>
+  <text x="84" y="110" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="46" font-weight="700" letter-spacing="1" fill="#e6f1ff">GERMÁN</text>
+  <text x="86" y="148" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="16" letter-spacing="4" fill="#7dd3fc">DATA / APPLIED AI / SECURITY</text>
+  <text x="86" y="188" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14" fill="#94a3b8">@Gjaset · building in public (mostly)</text>
+  <text x="86" y="214" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#64748b">NLP · geospatial · MLOps · AI security</text>
+</svg>
